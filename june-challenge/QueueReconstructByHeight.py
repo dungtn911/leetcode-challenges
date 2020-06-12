@@ -23,4 +23,4 @@ class Solution(object):
         for h,k in x:
             output.insert(k, (h,k))
         return output
-        
+         
