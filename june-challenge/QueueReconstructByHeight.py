@@ -4,6 +4,10 @@ Write an algorithm to reconstruct the queue.
 Example:
 Input: [[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]
 Output: [[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]
+Hint:
+    By default of sorted is ASC . reverse=True will sort DES
+    Need to sort h ASC and k DES
+    (iteration, key=keyFunction, reverse=False)
 
 class Solution(object):
     def reconstructQueue(self, people):
