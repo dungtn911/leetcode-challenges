@@ -11,7 +11,7 @@ class Solution(object):
         :type people: List[List[int]]
         :rtype: List[List[int]]
         """
-        x = sorted(people, key = lambda (h,k): (h, -k), reverse=True)
+        x = sorted(people, key= lambda (h,k): (h, -k), reverse=True)
         output = []
         for h,k in x:
             output.insert(k, (h,k))
