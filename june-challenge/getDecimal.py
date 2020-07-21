@@ -15,8 +15,8 @@ class Solution(object):
         :rtype: int
         """
         res = 0
-        while head:
-            res = res + pow(2,head.val)
+        while (head is not None):
+            res = res*2 + head.val
             head = head.next
         return res
         
